@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.demo.form.HotelMaster"/>
+		<mapping class="com.demo.form.HotelRoom"/>
+		<mapping class="com.demo.form.HotelRoomDetails"/>
+		<mapping class="com.demo.form.HotelRoomPhotos"/>
+		<mapping class="com.demo.form.MailLog"/>
+		<mapping class="com.demo.form.ModuleMaster"/>
+		<mapping class="com.demo.form.ModuleRole"/>
+		<mapping class="com.demo.form.RoleMaster"/>
+		<mapping class="com.demo.form.SaveSearchHistory"/>
+		<mapping class="com.demo.form.UserMaster"/>
+		<mapping class="com.demo.form.UserRole"/>
+		<mapping class="com.demo.form.UserRoomBooking"/>
+		<mapping class="com.demo.form.UserRoomSelling"/>
+	</session-factory>	
+</hibernate-configuration>
